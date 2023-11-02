@@ -22,8 +22,8 @@ async def everyone_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
 async def imgday_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_photo(photo="https://images.app.goo.gl/ajfEz3inLi8khkkq7")
 
-'''async def aud_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_audio(audio="Media\Rick Astley.mp3",title="Fortnigga ft.Young Nigga 14" )'''
+async def aud_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    await update.message.reply_audio(audio="Media\Rick Astley.mp3",title="Fortnigga ft.Young Nigga 14" )
 
 ###################################################################################################################
 '''
